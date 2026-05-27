@@ -76,12 +76,20 @@ export default function Home() {
           </h1>
           <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap", marginBottom: 56 }}>
             <a
-              href="https://calendly.com/wikolabs"
+              href="http://187.124.167.18:3032"
               target="_blank"
               rel="noopener noreferrer"
               style={{ background: primary, color: "#fff", padding: "14px 32px", borderRadius: 10, fontWeight: 700, fontSize: 16, textDecoration: "none" }}
             >
-              Demander une démo gratuite
+              Lancer la recherche →
+            </a>
+            <a
+              href="https://calendly.com/wikolabs"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ background: "#fff", color: primary, padding: "14px 32px", borderRadius: 10, fontWeight: 700, fontSize: 16, textDecoration: "none", border: `2px solid ${primary}` }}
+            >
+              Demander une démo
             </a>
             <a
               href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20ProductSearch%20avec%20Wikolabs."
@@ -152,12 +160,20 @@ export default function Home() {
           </p>
           <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href="https://calendly.com/wikolabs"
+              href="http://187.124.167.18:3032"
               target="_blank"
               rel="noopener noreferrer"
               style={{ background: "#fff", color: primary, padding: "14px 32px", borderRadius: 10, fontWeight: 700, fontSize: 16, textDecoration: "none" }}
             >
-              Demander une démo gratuite
+              Lancer la recherche →
+            </a>
+            <a
+              href="https://calendly.com/wikolabs"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ background: "transparent", color: "#fff", padding: "14px 32px", borderRadius: 10, fontWeight: 700, fontSize: 16, textDecoration: "none", border: "2px solid rgba(255,255,255,0.6)" }}
+            >
+              Demander une démo
             </a>
             <a
               href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20ProductSearch%20avec%20Wikolabs."
