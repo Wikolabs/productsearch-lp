@@ -51,7 +51,7 @@ export default function Home() {
       <nav style={{ background: "#fff", borderBottom: "1px solid #e0e7ff", position: "sticky", top: 0, zIndex: 50 }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 24px", height: 64, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 22, color: primary }}>
-            ProductSearch
+            Botsika.com
           </span>
           <a
             href="https://calendly.com/wikolabs"
@@ -92,7 +92,7 @@ export default function Home() {
               Demander une démo
             </a>
             <a
-              href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20ProductSearch%20avec%20Wikolabs."
+              href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20Botsika.com%20avec%20Wikolabs."
               target="_blank"
               rel="noopener noreferrer"
               style={{ background: "#25d366", color: "#fff", padding: "14px 32px", borderRadius: 10, fontWeight: 700, fontSize: 16, textDecoration: "none" }}
@@ -115,7 +115,7 @@ export default function Home() {
       <section style={{ background: "#fff", padding: "72px 24px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(1.5rem, 3vw, 2.2rem)", fontWeight: 800, textAlign: "center", color: "#111", marginBottom: 48 }}>
-            Ce que ProductSearch fait pour vous
+            Ce que Botsika.com fait pour vous
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24 }}>
             {features.map((f) => (
@@ -129,15 +129,34 @@ export default function Home() {
         </div>
       </section>
 
-      {/* HOW IT WORKS */}
+      {/* LIVE DEMO */}
       <section style={{ background: bgLight, padding: "72px 24px" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(1.5rem, 3vw, 2.2rem)", fontWeight: 800, textAlign: "center", color: "#111", marginBottom: 16 }}>
+            Essayez maintenant
+          </h2>
+          <p style={{ textAlign: "center", color: "#666", fontSize: 16, marginBottom: 40 }}>
+            Interface live — cherchez, filtrez, explorez votre catalogue produit en temps réel.
+          </p>
+          <div style={{ borderRadius: 20, overflow: "hidden", boxShadow: "0 8px 48px rgba(79,70,229,0.12)", border: "1px solid #e0e7ff" }}>
+            <iframe
+              src="http://187.124.167.18:3032"
+              style={{ width: "100%", height: 700, border: "none", display: "block" }}
+              title="Botsika.com — Recherche produit IA"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* HOW IT WORKS */}
+      <section style={{ background: "#fff", padding: "72px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto" }}>
           <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(1.5rem, 3vw, 2.2rem)", fontWeight: 800, textAlign: "center", color: "#111", marginBottom: 48 }}>
             Comment ça fonctionne
           </h2>
           <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
             {steps.map((s) => (
-              <div key={s.num} style={{ background: "#fff", border: "1px solid #e0e7ff", borderRadius: 16, padding: "28px 32px", display: "flex", gap: 24, alignItems: "flex-start" }}>
+              <div key={s.num} style={{ background: bgLight, border: "1px solid #e0e7ff", borderRadius: 16, padding: "28px 32px", display: "flex", gap: 24, alignItems: "flex-start" }}>
                 <span style={{ fontFamily: "var(--font-display)", fontSize: 36, fontWeight: 900, color: "#a5b4fc", minWidth: 56 }}>{s.num}</span>
                 <div>
                   <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 18, color: "#111", marginBottom: 8 }}>{s.title}</h3>
@@ -176,7 +195,7 @@ export default function Home() {
               Demander une démo
             </a>
             <a
-              href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20ProductSearch%20avec%20Wikolabs."
+              href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20Botsika.com%20avec%20Wikolabs."
               target="_blank"
               rel="noopener noreferrer"
               style={{ background: "#25d366", color: "#fff", padding: "14px 32px", borderRadius: 10, fontWeight: 700, fontSize: 16, textDecoration: "none" }}
@@ -190,7 +209,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer style={{ background: "#111", padding: "40px 24px", textAlign: "center" }}>
         <div style={{ maxWidth: 800, margin: "0 auto" }}>
-          <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 20, color: primary }}>ProductSearch</span>
+          <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 20, color: primary }}>Botsika.com</span>
           <p style={{ color: "#999", marginTop: 12, fontSize: 14 }}>
             by{" "}
             <a href="https://wikolabs.com" target="_blank" rel="noopener noreferrer" style={{ color: "#ccc", textDecoration: "none" }}>

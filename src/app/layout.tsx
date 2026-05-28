@@ -6,7 +6,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-displ
 const inter = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "ProductSearch — Moteur de recherche produit IA",
+  title: "Botsika.com — Moteur de recherche produit IA",
   description: "Recherchez vos produits par texte ou par image. Gemini Embeddings 3072-dim, résultats sémantiques en moins de 500ms.",
 };
 
